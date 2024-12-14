@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food Mealify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div class="navbar">
+          <h1>Mealify</h1>
+         <div id="novelists" class="navbar-menu">
+           <ul>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#chefs">Chefs</a></li>
+             <li><a href="#gallery"> Gallery</a></li>
+             <li><a href="#Contact"> Contact</a></li>
+           </ul>    
+          </div>
+           <div class="hamburger" onclick="toggleMenu()">
+             <span></span>
+             <span></span>
+             <span></span>
+            </div>
+        </div>
+
+        <header >
+          <div class="header" id="home">
+            <div class="content">
+              <h2>Enjoy Your Healthy <br> Delicious Food</h2>
+              <p> Fresh ingredients, expertly crafted dishes.<br> Experience flavors that nourish your body <br>and delight your senses.</p>
+              <div class="hover">
+                <button>Book a Table</button>
+              </div>
+            </div>
+            <div>
+              <img src="C:\Users\express\Desktop\hero-img.png" alt="hero"/>
+            </div>
+          </div>
+        </header>
+
+        <div class="chefs" id="chefs">
+          <div class="chefs-head">
+            <h3>CHEFS</h3>
+            <h2>Our <span>Proffesional</span> Chefs</h2>
+          </div>
+
+          <div class="itemss">
+
+            <div class="item ">
+              <div class="image">
+               <img src="C:\Users\express\Desktop\chefs-1.jpg" alt="walter white" />
+              </div>
+             <div class="item-content">
+                <h4>Walter White</h4>
+                <h5>Master Chef</h5>
+                <p>
+                Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
+                tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
+                corporis et voluptate.
+                </p>
+              </div>
+            </div>
+    
+            <div class="item ">
+              <div class="image">
+               <img src="C:\Users\express\Desktop\chefs-2.jpg" alt="walter white" />
+              </div>
+              <div class="item-content">
+                <h4>Sarah Jhonson</h4>
+                <h5>Patissier</h5>
+                <p>
+                Quo esse repellendus quia id. Est eum et accusantium pariatur
+                fugit nihil minima suscipit corporis. Voluptate sed quas
+                reiciendis animi neque sapiente.
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+               <img src="C:\Users\express\Desktop\chefs-3.jpg" alt="walter white" />
+              </div>
+              <div class="item-content">
+               <h4>William Anderson</h4>
+               <h5>Cook</h5>
+               <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="gallery" id="gallery">
+          <div class="gallery-head">
+            <h3>GALLERY</h3>
+            <h2>Check <span>Our Gallery</span></h2>
+          </div>
+          <div class="our-gallery">
+
+           <div class="item-gallery">
+
+            <div class="img-gallery">
+              <img src="C:\Users\express\Desktop\meal-1.jpg" alt="pizza slice" />
+              <div class="magic-gallery">
+                <h4>Pizza</h4>
+                <p>Hawaiian pizza with ham and pineapple</p>
+             </div>
+            </div>
+    
+            <div class="img-gallery">
+              <img src="C:\Users\express\Desktop\meal-4.jpg" alt="pizza slice" />
+              <div class="magic-gallery">
+                <h4>Levitation pizza</h4>
+                <p>Levitation pizza on black background.</p>
+              </div>
+            </div>
+
+            <div class="img-gallery">
+              <img src="C:\Users\express\Desktop\meal-2.jpg" alt="meat" />
+              <div class="magic-gallery">
+                <h4>Beef steaks</h4>
+                <p>Tasty beef steaks flying above cast iron grate with fire flames.</p>
+              </div>
+            </div>
+           </div>
+
+           <div class="item-gallery">
+            <div class="img-gallery">
+              <img src="C:\Users\express\Desktop\meal-7.jpg" alt="fritatta" />
+              <div class="magic-gallery">
+                <h4>Frittata</h4>
+                <p>Frittata or potato pie in a ceramic plate</p>
+              </div>
+            </div>
+
+            <div class="img-gallery">
+              <img src="C:\Users\express\Desktop\meal-3.jpg" alt="chicken" />
+              <div class="magic-gallery">
+                <h4>Burger</h4>
+                <p>grass fed bison hamburger with chips & beer</p>
+              </div>
+            </div>
+    
+            <div class="img-gallery">
+              <img src="C:\Users\express\Desktop\meal-5.jpg" alt="kabab" />
+              <div class="magic-gallery">
+                <h4>Crispy Fried Chicken</h4>
+                <p>Tasty beef steaks flying above cast iron grate with fire flames.</p>
+              </div>
+            </div>
+           </div>
+         </div>
+       </div>
+
+       <section id="Contact" class="form-section">
+        <h1>Contact <span>Us</span></h1>
+        <p>Stay connected with our latest updates</p>
+        <form id="user-form" >
+          <div  class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" placeholder="Your Phone" required>
+          </div>
+          <button type="submit" onclick="validateForm()" class="send">Send</button>
+        </form>
+        </section>
+
+        <footer class="footer">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <img src="C:\Users\express\Desktop\favicon.png" alt="Logo">
+            </div>
+            <p>Your trusted brand for quality products.</p>
+            <p>Designed by  <span>Youstina Amir </span> <br> &copy; Mealify 2024 All Rights Reserved.
+            </p>
+          </div>
+        </footer>
+        <script src="script.js"></script> 
+</body>
+</html>
